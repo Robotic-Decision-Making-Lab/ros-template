@@ -6,6 +6,9 @@
       "detail": "Build the workspace using catkin",
       "type": "shell",
       "command": "catkin_make",
+      "options": {
+        "cwd": "${workspaceFolder}/../.."
+      },
       "group": {
         "kind": "build",
         "isDefault": true
@@ -17,6 +20,9 @@
       "detail": "Source the ROS workspace",
       "type": "shell",
       "command": "source devel/setup.bash",
+      "options": {
+        "cwd": "${workspaceFolder}/../.."
+      },
       "problemMatcher": []
     },
     {
